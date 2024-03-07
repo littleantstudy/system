@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+}
+body {
+    overflow: hidden;
+}
+/*我加的*/
+.all {
+    width: 1700px;
+    margin: 0 auto;
+}
+.first {
+    background-color: #dcdcdc;
+    /*width: 100%;*/
+    width: 1690px;
+    height: 100px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    line-height: 100px;
+}
+.Fpart{
+    position: relative;
+    width: 200px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+}
+.img{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 19px;
+}
+.yunding{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    left: 50%;
+}
+.Spart{
+    position: relative;
+    width: 330px;
+    left: 27%;
+    font-size: xx-large;
+    font-weight: 500;
+}
+.Tpart{
+    position: relative;
+    width: 250px;
+    height: 100px;
+    left: 40%;
+}
+#button{
+    position: relative;
+    background-color: rgb(123, 142, 216);
+    color: white;
+    border: none;
+    left: 50%;
+}
+.second {
+    /*wide我加的*/
+    width: 1700px;
+    display: flex;
+    flex-direction: row;
+}
+.box_1 {
+    position: relative;
+    height: 570px;
+    width: 290px;
+    background-color: gainsboro;
+    text-align: center;
+    font-size: larger;
+}
+#changeStudent{
+    border: none;
+    width: 290px;
+    background-color: gray;
+    font-size: large;
+    color: white;
+}
+.word{
+    position: relative;
+}
+.box_2{
+    position: relative;
+    /*width: 100%;*/
+    width: 1300px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-image: url(https://yeruyu.oss-cn-beijing.aliyuncs.com/image-20240226194040060.png);
+    border-image-repeat: no-repeat;
+}
+.pic{
+    position: relative;
+    top: 270px;
+    background-repeat: no-repeat;
+}
+.change{
+    height: 100px;
+    position: relative;
+    /*width: 100%;*/
+    width: 1300px;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 100px;
+}
+.input{
+    font-size: large;
+}
+
+/*
+方向选择：DirectionSelection
+学生信息：StudentMessage
+学生登录：StudentRegister
+管理员登录：AdministratorsRegister
+姓名：Name
+学号：StudentId
+期数：IssueNumber
+电话：TelephoneNumber
+专业班级：Class
+增删学生信息:ChangeStudent
+重置密码：ResetPassword
+旧密码：OldPassword
+新密码：NewPassword
+获奖经历：WinPrizeExperence
+*/
