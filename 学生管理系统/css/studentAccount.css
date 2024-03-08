@@ -3,6 +3,7 @@ body{
     padding: 0;
     overflow: hidden;
 }
+/* 这是版心 */
 .box{
     width:1710px;
     height: 970px;
@@ -118,6 +119,8 @@ body{
 #enroll:hover{
     color:red;
 }
+
+/* 这是忘记密码按钮 */
 #forget{
     position: relative;
     width:100px;
@@ -130,17 +133,62 @@ body{
     color:palegreen;
 }
 
-
-.forgetpassword{
+/* 这是忘记密码部分的弹窗 */
+.forgetpassword {
     margin: 0 auto;
-    background-image: url();
+    background-image: url("https://miandianyaowang.oss-cn-beijing.aliyuncs.com/image-20240304153612207.png");
     background-color: aqua;
     width: 1000px;
-    height: 200px;
-    position: fixed;
-   
+    height:600px;
+    position: relative;
+    top:-400px;
+}
+/* 这是忘记密码的顶端logo */
+.forget_top{
+    position:absolute;
+    width: 100%;
+    height:40px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+/* 这是退出按钮 */
+#quit{
+    position: relative;
+    left:95%
+}
+/* 这时输入框样式 */
+.modal_content{
+    position: absolute;
+    left:350px;
+    top:200px;
+
 }
 
+#forgetUserpassword{
+    width:200px;
+    border-radius: 22px;
+}
+
+#forgetReset{
+    width: 200px;
+    border-radius: 22px;
+
+}
+
+/* 这是重置密码按钮 */
+#resetPassword{
+    position: relative;
+    color: white;
+    background-color: black;
+    width:100px;
+    border-radius: 22px;
+    left:10%;
+
+}
+#resetPassword:hover{
+    color:black;
+    background-color: white;
+}
+/* 这是hidden类，用来在js隐藏弹窗 */
 .hidden{
     display: none;
 }
