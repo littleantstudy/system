@@ -67,7 +67,7 @@ document.getElementById("basicMessage").addEventListener("submit", (event) => {
         };
         //转换为JSON格式进行传输
         JSON.stringify(stuMessage);
-        axios.post("http://43.143.169.168:9090/user/register", stuMessage)
+        axios.post("", stuMessage)
             .then((response) => {
                 console.log(response);
         })

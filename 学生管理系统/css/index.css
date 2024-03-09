@@ -75,7 +75,7 @@ h1{
     background-color: rgba(0, 0, 0 , 0);
 }
 
-.image_admin{
+#image_admin{
     background-repeat: no-repeat;
     position: relative;
     top: 170px;

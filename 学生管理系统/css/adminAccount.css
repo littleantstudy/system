@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.box {
+    width: 1710px;
+    height: 970px;
+    margin: 0 auto;
+    background-image: url("https://miandianyaowang.oss-cn-beijing.aliyuncs.com/image-20240226142621178.png");
+    background-size: 103%;
+    background-repeat: no-repeat;
+}
+
+/* 这是顶部的logo */
+.top {
+    display: flex;
+    position: relative;
+    width: 1710px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.yunding_img {
+    position: absolute;
+    width: 150px;
+    height: 40px;
+
+}
+
+.yunding_logo {
+    position: relative;
+    left: 100px;
+}
+
+/* 这是中间的图片和表单部分 */
+.medium {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 50px;
+    width: 1690px;
+    height: 700px;
+
+}
+
+/* 这是云深的logo */
+.medium_image {
+    position: relative;
+    width: 600px;
+    height: 600px;
+    left: 100px;
+    top: -120px;
+}
+
+/* 这是中间的表单 */
+.medium_content {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 0px;
+    left: 500px;
+
+}
+
+/* 这是管理者logo */
+.admin_image {
+    position: relative;
+    top: -10px;
+}
+
+/* 这是管理员表单 */
+#adminMessage {
+    position: relative;
+    top: 100px;
+}
+
+/* 这是账号输入框的样式 */
+#account {
+    width: 300px;
+    height: 20px;
+    border: 2px solid rgb(93, 89, 89);
+    border-radius: 5px;
+}
+
+/* 这是密码输入框的样式 */
+#pwd {
+    width: 300px;
+    height: 20px;
+    border: 2px solid rgb(93, 89, 89);
+    border-radius: 5px;
+}
+
+/* 这是登录按钮的样式 */
+#submit {
+    position: relative;
+    width: 180px;
+    height: 50px;
+    font-size: 22px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    top: 50px;
+    left: 100px;
+    transition: 1.5s;
+}
+
+#submit:hover {
+    color: black;
+    background-color: white;
+
+}

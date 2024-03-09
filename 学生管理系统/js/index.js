@@ -20,9 +20,9 @@ buttonStu.addEventListener('click', () => {
     window.location.href = targetUrl;
 });
 
-let buttonAdmin = document.getElementById("admin_button");
+let buttonAdmin = document.getElementById("image_admin");
 buttonAdmin.addEventListener('click', () => {
-    let targetUrl = "";
+    let targetUrl = "adminAccount.html";
     window.location.href = targetUrl;
 });
 
