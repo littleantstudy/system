@@ -197,8 +197,8 @@ body {
     height: 24px;
     width: 200px;
     position: relative;
-    top: 8px;
-    font: normal 500 15px "微软雅黑";
+    font: normal 500 20px "微软雅黑";
+    text-align: left;
 }
 .honor {
     position: relative;
